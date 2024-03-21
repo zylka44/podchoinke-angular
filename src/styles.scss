@@ -1,0 +1,46 @@
+@import "styles/constants";
+@import "styles/colors";
+@import "styles/fonts";
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "JosefinSans", Helvetica, sans-serif;
+  font-size: getUnit(10);
+  color: $primary-font-color;
+  background-color: $background-color;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  // overflow: hidden;
+}
+
+input {
+  font-family: JosefinSans;
+}
+
+::placeholder {
+  color: $color3;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  font-family: JosefinSans;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+img {
+  width: 100%;
+}
